@@ -1,0 +1,166 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #423131;
+  }
+  
+  #logo {
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    margin: 0;
+    color: beige;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(139, 139, 139);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .menu li a:hover {
+    color: rgb(190, 170, 140);
+  }
+  
+  body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #423131;
+  }
+
+  .calabresa, .mussarela, .frango, .queijos, .portuguesa, .lombo {
+    background-color: #b69563;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 28%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    display: flex;
+    flex-direction: column; /* Organiza imagem e texto em coluna */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .maisPedidas img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .linhaPratos {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin-left: 2%;
+  }
+.container {
+  position: relative;
+  display: inline-block;
+  width: 100%; /* ou defina uma largura fixa, se quiser */
+}
+
+.imgPrincipal {
+  display: block;
+  width: 100%;
+  height: 700px ;
+  object-fit: cover;       /* preenche a caixa cortando o excesso */
+  display: block;
+  filter: contrast(100%);
+}
+
+
+.texto-sobre-imagem {
+  position: absolute;
+  top: 40%; 
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+
+}
+
+.maisPedidas h2{
+  margin-left: 18%;
+  font-size: 40px;
+  color: #ecc891;
+}
+#reserva {
+display: inline-flex;
+border: 3px #ddd solid;
+border-radius: 10px;
+color: rgb(255, 255, 255);
+font-size: 30px;
+}
+
+#cardapio{
+  display: inline-flex;
+  margin-right: 10%;
+  color: #ddd;
+}
+
+#cardapio:hover{
+  color: #000000;
+  transition: 500ms;
+}
+
+#reserva:hover{
+color: #000000;
+background-color: #ffffff;
+transition: 500ms;
+}
+
+.clientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* container dos cartões */
+.cards-clientes {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: nowrap; /* importante para responsividade */
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+/* cada cartão individual */
+.cliente1, .cliente2, .cliente3 {
+  background-color: #b69563;
+  border: #ddd 0px solid;
+  border-radius: 8px;
+  padding: 15px;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.tituloCliente{
+  color: #ecc891;
+}
+
+.tituloCliente h1{
+  font-size: 40px;
+}
