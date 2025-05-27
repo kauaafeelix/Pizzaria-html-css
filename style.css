@@ -133,6 +133,7 @@ transition: 500ms;
   align-items: center;
   text-align: center;
   margin-top: 5%;
+  background-color: #5541418a;
 }
 
 /* container dos cartões */
@@ -141,7 +142,6 @@ transition: 500ms;
   justify-content: center;
   gap: 100px;
   flex-wrap: nowrap; /* importante para responsividade */
-  max-width: 1000px;
   margin-top: 20px;
 }
 
@@ -165,3 +165,25 @@ transition: 500ms;
 .tituloCliente h1{
   font-size: 40px;
 }
+
+.novidades{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-top: 2%;
+color: #ecc891;
+}
+
+.novidades h1{
+font-size: 40px;
+}
+
+.novidades p{
+font-size: 20px;
+}
+.labelNovidades{
+font-size: 30px;
+margin-top: 20px ;  
+}
+
