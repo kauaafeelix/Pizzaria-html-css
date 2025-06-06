@@ -26,7 +26,6 @@
     font-weight: bold;
     font-size: 20px;
     color: rgb(139, 139, 139);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .menu li a:hover {
@@ -108,6 +107,11 @@ body {
     margin: 10px;
     cursor: pointer;
     background-color: transparent;
+}
+
+#cardapio a{
+    text-decoration: none;
+    color: #000000;
 }
 
 #reserva:hover, #cardapio:hover {
@@ -197,11 +201,13 @@ body {
     width: 65%;
     gap: 10px;
     margin-top: 30px;
+    margin-left: 2%;
 }
 
 .maisPedidas h2 {
     font-size: 40px;
     color: #ecc891;
+    margin-left: 2%;
 }
 
 .linhaPratos {
@@ -216,16 +222,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 35%;
-    margin-top: 5%;
+    width: 40%;
+    margin-top: 12%;
+    margin-right: 2%;
+    gap: 7%;
 }
 
-.formularios h1{
-    color: #ecc891;
-    font-size: 30px;
-    text-align: center;
-    margin-right: 20%;
-}
 
 .video{
     display: flex;
@@ -236,13 +238,12 @@ body {
     margin-left: 50px;
     
     color: #423131;
-    background-color: #b6956393;
+    background-color: #ecc891;
     border-radius: 10px;
     padding: 20px;
     margin-right: 5%;
     margin-left: 15%;
     width: 400px;
-    color: #ecc891;
     text-align: center;
 }
 
@@ -280,18 +281,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 15%;
     margin-top: 8%;
 }
 
 .reserva form {
     display: flex;
     flex-direction: column; 
-    background-color: #b69563;
+    background-color: #ecc891;
     border-radius: 20px;
-    width: 70%;
+    width: 440px;
     padding: 15px;
     gap: 20px; 
+}
+
+.reserva span{
+    color: #ecc891;
 }
 
 .ladoEsquerdo, .ladoDireito {
@@ -333,3 +337,74 @@ body {
     background-color: #3d303077;
     transition: 500ms;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ecc891;
+    padding: 40px 20px;
+    color: #423131;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer .col {
+    flex: 1 1 200px;
+    margin: 10px 20px;
+  }
+  
+  footer #logo {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #423131;
+  }
+  
+  footer h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  footer p,
+  footer a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer .social-icons img {
+    width: 24px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  footer .col img {
+    width: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #423131;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
