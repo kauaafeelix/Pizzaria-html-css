@@ -1,3 +1,4 @@
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -31,14 +32,18 @@
 .menu li a:hover {
     color: rgb(190, 170, 140);
 }
+/* --------------------------------------------------------------------------------------- */
 
+/* Geral */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #423131;
     margin: 0;
     padding: 0;
 }
+/* ---------------------------------------------------------------------------------- */
 
+/* Parte de pratos */
 .calabresa, .mussarela, .frango, .queijos, .portuguesa, .lombo {
     background-color: #b69563;
     border-radius: 10px;
@@ -70,7 +75,9 @@ body {
     height: 50%;
 }
 
+/* -------------------------------------------------------------------------------------------- */
 
+/* Introdução WebSite  */
 .container {
     position: relative;
     width: 100%;
@@ -120,6 +127,10 @@ body {
     transition: 0.3s;
 }
 
+/* ----------------------------------------------------------------------------------------- */
+
+
+/* Parte de Feedbacks */
 .clientes {
     display: flex;
     flex-direction: column;
@@ -154,6 +165,9 @@ body {
     font-size: 40px;
 }
 
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Parte de Inscrever-se */
 .novidades {
     display: flex;
     flex-direction: column;
@@ -187,15 +201,23 @@ body {
     background-color: #b69563;
 }
 
+/* --------------------------------------------------------------------------------------------- */
+
+/* Organização da pagina com Pizzas mais Pedidas, e formularios */
+
+/* Configuração geral do conteiner */
 .pagina{
     display: flex;
     flex-direction: row;
 }
+/* ============================================================= */
+
+/* Parte dos cards com as pizzas mais pedidas */
 
 .maisPedidas {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Centraliza o conteúdo, incluindo o título */
+    align-items: center; 
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 65%;
@@ -217,7 +239,9 @@ body {
     gap: 20px;
     margin-left: 5px;
 }
+/* ================================================================== */
 
+/* Organização da parte de formularios */
 .formularios{
     display: flex;
     flex-direction: column;
@@ -298,6 +322,8 @@ body {
     color: #ecc891;
 }
 
+/* Config do formulario de reserva */
+
 .ladoEsquerdo, .ladoDireito {
     display: flex;
     flex-direction: column;
@@ -337,6 +363,7 @@ body {
     background-color: #3d303077;
     transition: 500ms;
 }
+/* ========================================================= */
 
 /* Footer */
 
@@ -407,4 +434,4 @@ footer {
     margin-top: 20px;
     font-size: 14px;
   }
-  
+  /* ============================================================== */
