@@ -34,7 +34,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: burlywood;
+    background-color: rgb(247, 216, 176);   
     margin: 0;
     padding: 0;
 }
@@ -43,13 +43,33 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .titulo-sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;  
+    text-align: center;   
+}   
+.titulo-sobre h1{
+    color: #8b4513;
+    font-size: 50px;
+}
+
+.linhaMenor{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.linhaMenor .linha{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    height: 2px;
+    background-color: #2E1A0F;
+    width: 65vw;
+    box-shadow:  10px 10px 16px rgba(0, 0, 0, 0.3);
 }
 
 .historia{
@@ -57,7 +77,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2%;
+    height: 480px;
 }
+
+.historia h1{
+    color: #8b4513;
+}
+
 .historia img{
     width: 90%;
     height: 75%;
@@ -67,30 +93,39 @@ body {
 .historia .lado-direito{
     width: 40%;
     margin-left: 20px;
+    margin-top: 3%;
 }
 .historia .lado-esquerdo{
     width: 60%;
     margin-left: 20px;
+    margin-top: 8%;
 }
 
 .historia p{
-    line-height: 2.0;
+    line-height: 2.2;
 }
 
 .filosofia{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 500px;
+}
+
+.filosofia h1{
+    color: #8b4513;
 }
 
 .filosofia .lado-direito{
     width: 60%;
     margin-left: 20px;
+    margin-top: 5%;
 }
 
 .filosofia .lado-esquerdo{
     width: 40%;
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-top: 3%;
 }
 
 .filosofia img{
@@ -100,8 +135,128 @@ body {
 }
 
 .filosofia p{
-    line-height: 2.0;
+    line-height: 1.8;
 }
 .filosofia span{
     font-weight: 600;
+    color: #8b4513;
 }
+
+.equipe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.equipe h1{
+    color: #8b4513;
+}
+
+.titulo-equipe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8b4513;
+}
+
+
+.membro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.membro h4{
+    color: #8b4513;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.membro p{
+    font-size: 14px;
+}
+
+.membro em{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.membro img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ecc891;
+    padding: 40px 20px;
+    color: #423131;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer .col {
+    flex: 1 1 200px;
+    margin: 10px 20px;
+  }
+  
+  footer #logo {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #423131;
+  }
+  
+  footer h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  footer p,
+  footer a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer .social-icons img {
+    width: 24px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  footer .col img {
+    width: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #423131;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }

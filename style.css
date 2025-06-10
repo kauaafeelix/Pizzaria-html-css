@@ -313,9 +313,10 @@ body {
     flex-direction: column; 
     background-color: #ecc891;
     border-radius: 20px;
-    width: 440px;
+    width: 450px;
     padding: 15px;
     gap: 20px; 
+    margin-left: 10%;
 }
 
 .reserva span{
