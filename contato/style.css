@@ -1,0 +1,161 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #423131;
+  }
+
+#logo {
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    margin: 0;
+    color: beige;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(139, 139, 139);
+}
+
+.menu li a:hover {
+    color: rgb(190, 170, 140);
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(247, 216, 176);   
+    margin: 0;
+    padding: 0;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; 
+    padding: 40px;
+    flex-wrap: wrap; 
+  }
+
+.titulo-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    font-size: 25px;
+}
+
+.titulo-contato p{
+    font-size: 18px;
+}
+
+
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+
+/* Formulário */
+.formulario h1 {
+    color: #8b4513;
+    text-align: center;
+  }
+
+form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d62828;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+
+button:hover {
+    background-color: #a51e1e;
+  }
+
+
+.lado-direito{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.horario-funcionamento{
+  background-color: #ecc891;
+  color: #423131;
+  border: 2px solid #5541418a;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.horario-funcionamento h3{
+  font-size: 25px;
+}
+.horario-funcionamento h4, p{
+  font-size: 19px;
+}
+
+.segundaQuinta, .sextaDomingo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nossas-informacoes img {
+    width: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }

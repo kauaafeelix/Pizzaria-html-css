@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 id="logo">Felix´s Pizzaria</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Cardapio/index.html">Cardápio</a></li>
+                <li><a href="/sobre/index.html">Sobre</a></li>
+                <li><a href="/contato/index.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="pagina">
+        <div class="titulo-contato">
+            <h1>Entre em Contato</h1>
+            <p>Entre em contato com a Felix's Pizzaria para tirar dúvidas, fazer pedidos especiais, 
+                agendar entregas ou enviar sugestões. Estamos sempre prontos para oferecer o melhor atendimento
+                e garantir que sua experiência seja tão saborosa quanto nossas pizzas!</p>
+        </div>
+        
+        <div class="lado-esquerdo">
+            <div class="formulario">
+                <h1>Envie uma Mensagem</h1>
+
+                <form action="#" method="post">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                        <button type="submit">Enviar</button>
+                </form>
+            </div>   
+        </div>
+
+        <div class="lado-direito">
+            <div class="nossas-informacoes">
+                <h1>Nossas Informações</h1>
+                <p><img src="/img/marcador.svg" alt="local"> Rua Edson Carlos Gerent N° 225</p>
+                <p><img src="/img/chamada-telefonica.svg" alt="telefone"> (47) 98436-8597</p>
+                <p><img src="/img/envelope.svg" alt="email"> kaua_fs_costa@estudante.sesisenai.org.br</p>
+            </div>
+
+            <div class="horario-funcionamento">
+                <h3>Horário de Funcionamento</h3>
+                    <div class="segundaQuinta">
+                        <h4>Segunda à Quinta</h4>
+                        <p>17:30 às 23:00</p>
+                    </div>
+                    <br>
+                    <div class="sextaDomingo">
+                        <h4>Sexta à Domingo</h4>
+                        <p>18:30 às 1:00</p> 
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

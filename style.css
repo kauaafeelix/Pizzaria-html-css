@@ -118,13 +118,17 @@ body {
 
 #cardapio a{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 #reserva:hover, #cardapio:hover {
     background-color: white;
     color: black;
-    transition: 0.3s;
+    transition: all 0.5s ease;
+}
+
+#cardapio a:hover{
+    color: black;
 }
 
 /* ----------------------------------------------------------------------------------------- */
